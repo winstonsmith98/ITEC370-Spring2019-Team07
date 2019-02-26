@@ -1,0 +1,4 @@
+Name: Nalani Story
+Email: nstory@radford.edu
+GitHub: nalanii
+About Me: Concentrating in CS, SE, & DB
