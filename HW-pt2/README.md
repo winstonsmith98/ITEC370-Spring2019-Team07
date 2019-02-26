@@ -1,4 +1,4 @@
-# https://github.com/tlewis32-ru/ITEC370-Spring2019
+# https://github.com/tlewis32-ru/ITEC370-Spring2019/tree/master/HW-pt2
 
 1. Edit the title of this document
    * Replace the user name (tlewis32-ru) with the user name of the team member who created shared repository
