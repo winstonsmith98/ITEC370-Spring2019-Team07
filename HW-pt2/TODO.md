@@ -81,7 +81,7 @@ Any team member may complete this step.
 Any and all team member's may create a local clone.
 
    1. Login to a terminal
-   2. mkdir itec370                         // if you do not already have this subdirectory
+   2. mkdir itec370                              // if you do not already have this subdirectory
    4. mkdir itec370/teamxx
    5. cd itec370/teamxx
    6. git clone https://github.com/github-account-name/team-repo-name
