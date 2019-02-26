@@ -18,11 +18,11 @@ Only one team member completes this step.
   1. Login to GitHub with your radford.edu GitHub account.
   2. Click the green [New Repository] link.
   3. Enter the name suggested by GitHub for your newly created repository as your repository's name, ie.  your-repo-name
-  4. Enter "IEC370 Spring2019-Team xx" as the description for this new repository.  Replace XX with your Team number.
+  4. Enter "ITEC370-Spring2019-TeamNN" as the description for this new repository.  Replace NN with your Team number.
   5. Select Private.
   6. Click [Create repository].
   7. Scroll to bottom of Quick Setup page and click [Import Code].
-  8. Enter the existing (old) repository's clone URL: https://github.com/tlewis32-ru/ITEC370-Spring2019
+  8. Enter the existing (old) repository's clone URL: https://github.com/tlewis32-ru/ITEC370-Spring2019/tree/master/HW-pt2
   9. Click [Begin Import] and wait for import to complete.
   10. Click the link to your newly created repository.
   11. Add Collaborators to your newly created repository.  
