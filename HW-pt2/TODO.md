@@ -31,7 +31,7 @@ Only one team member completes this step.
      c. For each member of your team
         i. Enter your team member's GitHub account username
         ii. Click Add Collaborator
-        iii. Add 'tliewis32-ru' as a collaborator
+        iii. Add 'tlewis32-ru' as a collaborator
         
   11. Share the name of this repository with all of your team members
 
