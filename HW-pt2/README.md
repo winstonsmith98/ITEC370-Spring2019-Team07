@@ -17,7 +17,7 @@
 1. TODO.md - contains instructions for what to do for this assignment
 2. README.md - overview of files in this repository (this file)
 3. team_rules.md - documents the rules for your team
-4. style_guide.md - documents coding styles your team will use for X-team coding projects
+4. style_guide.md - documents coding styles your team will use forteam coding projects
 
 ## Files to Submit
 1. Please ensure that tlewis-ru is a collaborator on your team's private respository.
