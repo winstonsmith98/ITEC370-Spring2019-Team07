@@ -1,6 +1,6 @@
 # https://github.com/tlewis32-ru/ITEC370-Spring2019
 
-1. Edit the title of this doucment
+1. Edit the title of this document
    * Replace the user name (tlewis32-ru) with the user name of the team member who created shared repository
    * Replace the repository name with the name of your team's GitHub repository for this exercise.
 
@@ -20,4 +20,4 @@
 4. style_guide.md - documents coding styles your team will use for X-team coding projects
 
 ## Files to Submit
-1. Please ensure that tlewis-ru is a collaborator on your private team respository.
+1. Please ensure that tlewis-ru is a collaborator on your team's private respository.
