@@ -65,7 +65,7 @@ All team members must help draft content and edit files.  The style_guide.md fil
 
 1. Replace NN in the top heading with your team's number.
 2. Document your team's opinion or philosophy regarding the value and use of style guides.
-3. Edit the style_guide.md document so that it describes the Java coding style your team agrees to use for your semester project.
+3. Edit the style_guide.md document so that it describes the coding style your team agrees to use for your semester project.
 4. Document your team's naming conventions and provide examples.
 5. Add example comments and a brief statement of your team's commenting style.
 
