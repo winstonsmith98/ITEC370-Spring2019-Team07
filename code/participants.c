@@ -20,6 +20,7 @@ main (int argc, char *argv[])
   int i = 0;
   printf ("%02d: Tracy Lewis-Williams\n", ++i);
   printf ("%02d: Zachary Joswick\n", ++i);
+  printf ("%02d: Michael Donaldson\n", ++i);
 
 
   printf ("There are %i participants.\n", i);

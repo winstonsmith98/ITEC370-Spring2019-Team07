@@ -16,7 +16,7 @@ and missed deadlines.
 
 
 
-## How will will communicate difficulties with a task assigned to us
+## How will communicate difficulties with a task assigned to us
 
 
 

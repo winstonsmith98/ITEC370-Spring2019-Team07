@@ -5,3 +5,5 @@ A list of participants in ITEC370
 *{Last name, First name}*
 
 Joswick, Zachary
+Donaldson, Michael
+Fuhrer, Caleb
