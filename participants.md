@@ -7,3 +7,4 @@ A list of participants in ITEC370
 Joswick, Zachary
 Donaldson, Michael
 Fuhrer, Caleb
+Story, Nalani
