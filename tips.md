@@ -17,4 +17,17 @@ are links to some GUI's are think might be useful:
   -http://try.github.io
   -https://blog.prototypr.io/git-for-beginners-12-commands-you-need-to-know-e084cce9cc94
 
+Nalani's Tips: 
+ * Find who changed what on file 
+ ```$xslt
+git blame [fileName]
+```
+ * Built in git GUI
+ ```$xslt
+gitk
+```
+ * Colorful git output 
+ ```$xslt
+git config color.ui true
+```
 
