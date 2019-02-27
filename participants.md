@@ -9,6 +9,7 @@ A list of participants in ITEC370
 <br/>Fuhrer, Caleb
 <br/>Kuehn, Chase
 <br/>Ierardi, Nolan
+<br/>Paterson, Ian
 <br/>Sluder, Matthew
 <br/>Story, Nalani
 <br/>Whitteker, Donald
