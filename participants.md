@@ -4,6 +4,7 @@ Story, Nalani
 *Please keep this list in alphabetical order by last name.*
 *{Last name, First name}*
 
+<br/>Rhine, Alexander
 <br/>Joswick, Zachary
 <br/>Donaldson, Michael
 <br/>Fuhrer, Caleb
