@@ -18,6 +18,7 @@ int
 main (int argc, char *argv[])
 {
   int i = 0;
+  printf ("%02d: Alexander Rhine\n", ++i);
   printf ("%02d: Jonathan Clark\n", ++i);
   printf ("%02d: Tracy Lewis-Williams\n", ++i);
   printf ("%02d: Zachary Joswick\n", ++i);
