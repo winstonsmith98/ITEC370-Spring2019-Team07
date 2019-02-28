@@ -7,5 +7,7 @@ Story, Nalani
 <br/>Joswick, Zachary
 <br/>Donaldson, Michael
 <br/>Fuhrer, Caleb
-<br/>Story, Nalani
+<br/>Kuehn, Chase
 <br/>Sluder, Matthew
+<br/>Story, Nalani
+<br/>Young, Dalton
