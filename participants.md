@@ -8,7 +8,8 @@ Story, Nalani
 <br/>Donaldson, Michael
 <br/>Fuhrer, Caleb
 <br/>Kuehn, Chase
+<br/>Ierardi, Nolan
 <br/>Sluder, Matthew
 <br/>Story, Nalani
 <br/>Young, Dalton
-<br/>Anderson, Jamal
+<br/>Anderson, Jama
