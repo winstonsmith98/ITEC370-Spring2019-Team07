@@ -13,6 +13,7 @@ A list of participants in ITEC370
 <br/>Story, Nalani
 <br/>Whitteker, Donald
 <br/>Young, Dalton
+<br/>Zeidan, Michael
 <<<<<<< HEAD
 <br/>Anderson, Jama
 =======
