@@ -6,12 +6,13 @@
 
 2. Answer these questions
    * What are the GitHub usernames of your team members?
-       * GitHub username 1:
-       * GitHub username 2:
-       * GitHub username 3:
-       * GitHub username 4:
-       * GitHub username 5:
+       * GitHub username 1:Kyle Van Sprewenburg
+       * GitHub username 2:Jamal Anderson
+       * GitHub username 3:Winston Smith
+       * GitHub username 4:Matt Sluder
+       * GitHub username 5:Jonathan Clark
    * How long did it take your team to complete this exercise? 
+   30 minutes
 
 ## Table of Contents
 1. TODO.md - contains instructions for what to do for this assignment
