@@ -1,3 +1,5 @@
+
+
 body {
   background-color:#fff9a8;
   font-family:"Calibri";
@@ -48,7 +50,29 @@ body {
 }
 
 #q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10 {
+  padding-top: 0px;
   height: 600px;
   width: 600px;
   display: none;
+}
+
+.qChoices {
+   background-color: #f0ead6;
+}
+
+.qIChoices {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.qIChoices:hover {
+  border-style: solid;
+  border-color:black;
+  box-shadow: 3px 4px #000;
+}
+
+.qTitle {
+  padding-bottom: 150px;
+  font-size: 30px;
 }
