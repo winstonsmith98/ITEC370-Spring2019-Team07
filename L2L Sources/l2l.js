@@ -95,13 +95,24 @@ function adv() {
   if(qNums > 10) {
     alert("Congratulations! Click 'Submit' to view your score!");
     qNums = 10;
+	window.location = "Print_Certificate.HTML";
   }
 
 
   document.getElementById("qNum").innerHTML = "Question Number: " + qNums;
   count++;
 }
+function print_certificate(cert) 
+{
+     var printContents = document.getElementById(cert).innerHTML;
+     var originalContents = document.body.innerHTML;
 
+     document.body.innerHTML = printContents;
+
+     window.print();
+
+     document.body.innerHTML = originalContents;
+}
 var cCorrect = 0;
 function subQ() {
   if(qNums == 1 ) {

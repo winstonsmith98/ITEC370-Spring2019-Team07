@@ -76,3 +76,11 @@ body {
   padding-bottom: 150px;
   font-size: 30px;
 }
+.text-wrapper{
+	width: 100%;
+	position: relative;
+	margin-top: -42%;
+}
+.text-wrapper h1{
+	text-align: center;
+}
