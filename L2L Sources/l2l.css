@@ -1,172 +1,84 @@
-var qNums = [0];
-var qs = [0];
-var count = 1;
-
-function adv() {
-
-
-  for (var i = 0; i < qNums.length; i++) {
-    qNums[i] +=1;
-    //alert(qNums);
-    switch (qNums[i]) {
-      case 1:
-        document.getElementById("q1").style.display = "block";
-
-        break;
-      case 2:
-        document.getElementById("q1").style.display = "none";
-        document.getElementById("q2").style.display = "block";
-        break;
-      case 3:
-        document.getElementById("q1").style.display = "none";
-        document.getElementById("q2").style.display = "none";
-        document.getElementById("q3").style.display = "block";
-
-        break;
-      case 4:
-        document.getElementById("q1").style.display = "none";
-        document.getElementById("q2").style.display = "none";
-        document.getElementById("q3").style.display = "none";
-        document.getElementById("q4").style.display = "block";
-        break;
-      case 5:
-        document.getElementById("q1").style.display = "none";
-        document.getElementById("q2").style.display = "none";
-        document.getElementById("q3").style.display = "none";
-        document.getElementById("q4").style.display = "none";
-        document.getElementById("q5").style.display = "block";
-        break;
-      case 6:
-        document.getElementById("q1").style.display = "none";
-        document.getElementById("q2").style.display = "none";
-        document.getElementById("q3").style.display = "none";
-        document.getElementById("q4").style.display = "none";
-        document.getElementById("q5").style.display = "none";
-        document.getElementById("q6").style.display = "block";
-        break;
-      case 7:
-        document.getElementById("q1").style.display = "none";
-        document.getElementById("q2").style.display = "none";
-        document.getElementById("q3").style.display = "none";
-        document.getElementById("q4").style.display = "none";
-        document.getElementById("q5").style.display = "none";
-        document.getElementById("q6").style.display = "none";
-        document.getElementById("q7").style.display = "block";
-        break;
-      case 8:
-        document.getElementById("q1").style.display = "none";
-        document.getElementById("q2").style.display = "none";
-        document.getElementById("q3").style.display = "none";
-        document.getElementById("q4").style.display = "none";
-        document.getElementById("q5").style.display = "none";
-        document.getElementById("q6").style.display = "none";
-        document.getElementById("q7").style.display = "none";
-        document.getElementById("q8").style.display = "block";
-        break;
-      case 9:
-        document.getElementById("q1").style.display = "none";
-        document.getElementById("q2").style.display = "none";
-        document.getElementById("q3").style.display = "none";
-        document.getElementById("q4").style.display = "none";
-        document.getElementById("q5").style.display = "none";
-        document.getElementById("q6").style.display = "none";
-        document.getElementById("q7").style.display = "none";
-        document.getElementById("q8").style.display = "none";
-        document.getElementById("q9").style.display = "block";
-        break;
-      case 10:
-        document.getElementById("q1").style.display = "none";
-        document.getElementById("q2").style.display = "none";
-        document.getElementById("q3").style.display = "none";
-        document.getElementById("q4").style.display = "none";
-        document.getElementById("q5").style.display = "none";
-        document.getElementById("q6").style.display = "none";
-        document.getElementById("q7").style.display = "none";
-        document.getElementById("q8").style.display = "none";
-        document.getElementById("q9").style.display = "none";
-        document.getElementById("q10").style.display = "block";
-        break;
-      default:
-        document.getElementById("q10").style.display = "none";
-
-    }
-  }
-    //alert(qNums);
-  if(qNums > 10) {
-    alert("Congratulations! Click 'Submit' to view your score!");
-    qNums = 10;
-
-  }
-
-
-  document.getElementById("qNum").innerHTML = "Question Number: " + qNums;
-  count++;
+body {
+  background-color:#fff9a8;
+  font-family:"Calibri";
 }
 
-function print_certificate(cert) {
-     var printContents = document.getElementById(cert).innerHTML;
-     var originalContents = document.body.innerHTML;
-
-     document.body.innerHTML = printContents;
-
-     window.print();
-
-     document.body.innerHTML = originalContents;
+#title {
+  font-family:"Calibri";
 }
 
-var cCorrect = 0;
-function subQ() {
-  if(qNums == 1 ) {
-    if(document.getElementById("ques1a").checked == true) {
-        cCorrect++;
-    }
-  } else if(qNums == 2) {
-    if(document.getElementById("ques2a").checked == true) {
-        cCorrect++;
-    }
-  } else if(qNums == 3) {
-    if(document.getElementById("ques3a").checked == true) {
-        cCorrect++;
-    }
-  } else if(qNums == 4) {
-    if(document.getElementById("ques4a").checked == true) {
-        cCorrect++;
-    }
-  } else if(qNums == 5) {
-    if(document.getElementById("ques5a").checked == true) {
-        cCorrect++;
-    }
-  } else if(qNums == 6) {
-    if(document.getElementById("ques6a").checked == true) {
-        cCorrect++;
-    }
-  } else if(qNums == 7 ) {
-    if(document.getElementById("ques7a").checked == true) {
-        cCorrect++;
-    }
-  } else if(qNums == 8) {
-    if(document.getElementById("ques8a").checked == true) {
-        cCorrect++;
-    }
-  } else if(qNums == 9) {
-    if(document.getElementById("ques9a").checked == true) {
-        cCorrect++;
-    }
-  } else if(qNums == 10) {
-    if(document.getElementById("ques10a").checked == true) {
+.question {
+  height: 750px;
+  width: 750px;
+  border: 2px solid black;
+  background-color: white;
+  margin: auto;
+}
 
-        cCorrect++;
-    }
-    if(cCorrect >= 10) {
-      cCorrect = 10;
-    }
-    alert("Your score is: " + cCorrect + " / 10!");
+.btn {
+ background-color: #4CAF50; /* Green */
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ font-size: 16px;
+ cursor: pointer;
+ box-shadow: 3px 4px #000;
+}
 
-  }
+#end {
+  position: fixed;
+  width: 15%;
+  bottom: 10px;
 
+}
 
+#phImage {
+  padding-top: 150px;
+}
 
-  if(cCorrect >= 7 && qNums == 10) {
-    	//window.location = "print_certificate.html";
-  }
+#qNum {
+    font-family:"Calibri";
+    font-size: 20px;
+}
+
+#nextQ {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10 {
+  padding-top: 0px;
+  height: 600px;
+  width: 600px;
+  display: none;
+}
+
+.qChoices {
+   background-color: #f0ead6;
+}
+
+.qIChoices {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.qIChoices:hover {
+  border-style: solid;
+  border-color:black;
+  box-shadow: 3px 4px #000;
+}
+
+.qTitle {
+  padding-bottom: 150px;
+  font-size: 30px;
+}
+.text-wrapper{
+	width: 100%;
+	position: relative;
+	margin-top: -42%;
+}
+.text-wrapper h1{
+	text-align: center;
 }
