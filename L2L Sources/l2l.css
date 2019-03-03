@@ -1,4 +1,5 @@
 body {
+  background-image: url("background.jpg");
   background-color:#fff9a8;
   font-family:"Calibri";
 }
@@ -77,8 +78,53 @@ body {
 .text-wrapper{
 	width: 100%;
 	position: relative;
-	margin-top: -42%;
+	margin-top: -39.5%;
 }
 .text-wrapper h1{
 	text-align: center;
 }
+#container{
+	background-color: #fff9a8;
+	border-style: ridge;
+	border-color: #808000;
+	border-width: 3px;
+	height: 1325px;
+	width: 1075px;
+	margin: 0 auto;
+	padding: 30px;
+}
+header{ 
+	background-color: #145C07;
+	border-style: ridge;
+	border-color: #808000;
+	border-width: 3px;
+	height: 175px;
+	width: 1070px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+footer{
+	border-style: ridge;
+	border-color: #808000;
+	border-width: 3px;
+	height: 175px;
+	width: 1070px;
+}
+span{
+	color:red;
+}
+
+.btn:hover {
+    color: blue;
+}
+
+#sectionOne{
+	border-style: ridge;
+	border-color: #808000;
+	border-width: 3px;
+	height: 1105px;
+	width: 1070px;
+	margin-bottom: 30px;
+	float: right;
+}
+
