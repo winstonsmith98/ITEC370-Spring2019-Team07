@@ -1,7 +1,7 @@
 body {
-  background-image: url("background.jpg");
   background-color:#fff9a8;
   font-family:"Calibri";
+  background-image: url("background.png");
 }
 
 #title {
@@ -14,6 +14,9 @@ body {
   border: 2px solid black;
   background-color: white;
   margin: auto;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
 }
 
 .btn {
@@ -56,12 +59,19 @@ body {
 }
 
 .qChoices {
-   background-color: #f0ead6;
+   background-color: #ffd3ad;
+   -moz-border-radius: 50px;
+   -webkit-border-radius: 50px;
+   border-radius: 50px;
+     width: 600px;
 }
 
 .qIChoices {
   padding-top: 30px;
   padding-bottom: 30px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
 
 }
 
@@ -69,6 +79,10 @@ body {
   border-style: solid;
   border-color:black;
   box-shadow: 3px 4px #000;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #f4bf42;
 }
 
 .qTitle {
@@ -93,7 +107,7 @@ body {
 	margin: 0 auto;
 	padding: 30px;
 }
-header{ 
+header{
 	background-color: #145C07;
 	border-style: ridge;
 	border-color: #808000;
@@ -127,4 +141,3 @@ span{
 	margin-bottom: 30px;
 	float: right;
 }
-

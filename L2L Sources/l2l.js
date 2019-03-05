@@ -1,14 +1,21 @@
-var qNums = [0];
-var qs = [0];
+var qNums = [1];
 var count = 1;
+
+
+function qStart() {
+  document.getElementById("q1").style.display = "block";
+}
+
 
 function adv() {
 
 
   for (var i = 0; i < qNums.length; i++) {
+
     qNums[i] +=1;
-    //alert(qNums);
+
     switch (qNums[i]) {
+
       case 1:
         document.getElementById("q1").style.display = "block";
 
@@ -116,46 +123,96 @@ function print_certificate(cert) {
 
 var cCorrect = 0;
 function subQ() {
+
   if(qNums == 1 ) {
     if(document.getElementById("ques1a").checked == true) {
         cCorrect++;
+        adv();
+    } else if(document.getElementById("ques1b").checked == true) {
+        adv();
+    } else if(document.getElementById("ques1c").checked == true) {
+       adv();
     }
   } else if(qNums == 2) {
     if(document.getElementById("ques2a").checked == true) {
         cCorrect++;
+        adv();
+    } else if(document.getElementById("ques2b").checked == true) {
+        adv();
+    } else if(document.getElementById("ques2c").checked == true) {
+       adv();
     }
   } else if(qNums == 3) {
     if(document.getElementById("ques3a").checked == true) {
         cCorrect++;
+        adv();
+    } else if(document.getElementById("ques3b").checked == true) {
+        adv();
+    } else if(document.getElementById("ques3c").checked == true) {
+       adv();
     }
   } else if(qNums == 4) {
     if(document.getElementById("ques4a").checked == true) {
         cCorrect++;
+        adv();
+    } else if(document.getElementById("ques4b").checked == true) {
+        adv();
+    } else if(document.getElementById("ques4c").checked == true) {
+       adv();
     }
   } else if(qNums == 5) {
     if(document.getElementById("ques5a").checked == true) {
         cCorrect++;
+        adv();
+    } else if(document.getElementById("ques5b").checked == true) {
+        adv();
+    } else if(document.getElementById("ques5c").checked == true) {
+       adv();
     }
   } else if(qNums == 6) {
     if(document.getElementById("ques6a").checked == true) {
         cCorrect++;
+        adv();
+    } else if(document.getElementById("ques6b").checked == true) {
+        adv();
+    } else if(document.getElementById("ques6c").checked == true) {
+       adv();
     }
   } else if(qNums == 7 ) {
     if(document.getElementById("ques7a").checked == true) {
         cCorrect++;
+        adv();
+    } else if(document.getElementById("ques7b").checked == true) {
+        adv();
+    } else if(document.getElementById("ques7c").checked == true) {
+       adv();
     }
   } else if(qNums == 8) {
     if(document.getElementById("ques8a").checked == true) {
         cCorrect++;
+        adv();
+    } else if(document.getElementById("ques8b").checked == true) {
+        adv();
+    } else if(document.getElementById("ques8c").checked == true) {
+       adv();
     }
   } else if(qNums == 9) {
     if(document.getElementById("ques9a").checked == true) {
         cCorrect++;
+        adv();
+    } else if(document.getElementById("ques9b").checked == true) {
+        adv();
+    } else if(document.getElementById("ques9c").checked == true) {
+       adv();
     }
   } else if(qNums == 10) {
     if(document.getElementById("ques10a").checked == true) {
-
         cCorrect++;
+        adv();
+    } else if(document.getElementById("ques10b").checked == true) {
+        adv();
+    } else if(document.getElementById("ques10c").checked == true) {
+       adv();
     }
     if(cCorrect >= 10) {
       cCorrect = 10;

@@ -7,130 +7,130 @@
 
   </head>
 
-  <body>
-  <div id="container">
-  		<header>
-			<img src="logo.png" alt="License to Learn">
-			<br><br>
-			<nav>
-				<a href="licensetolearn.html" class="btn">Home Page</a>
-			</nav>
-		</header>
-		<div id="sectionOne">
+  <body onLoad="qStart()">
+    <div id="container">
+      <header>
+      <img src="logo.png" alt="License to Learn">
+      <br><br>
+        <a href="licensetolearn.html">
+          <button class="btn">Home Page</button>
+        </a>
+
+    </header>
+    <div id="sectionOne">
+    <br>
     <center>
     <br>
 
-
-    <p id="qNum">Question Number: </p>
-    <button class="btn" id="nextQ" onClick="adv()">Next Question</button><br><br>
+    <p id="qNum">Question Number: 1</p>
     <button class="btn" id="submit" onClick="subQ()">Submit</button><br><br>
     <br>
     <br>
     <div class="question">
       <div id = "q1">
-        <p class="qTitle"> What is the best person?</p>
+        <p class="qTitle"> Test Q1?</p>
         <br>
         <div class = "qChoices">
-          <div class = "qIChoices"> <input type="radio" id="ques1a" name="q1" value="kyle"> Kyle<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques1b" name="q1" value="santa"> Santa Claus<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques1c" name="q1" value="mike"> Mike Pence<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques1a" name="q1" value="kyle"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques1b" name="q1" value="santa"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques1c" name="q1" value="mike"> Test Answer<br></div>
         </div>
       </div>
 
       <div id = "q2">
-        <p class="qTitle"> Why are you the way you are?</p>
+        <p class="qTitle"> Test Q2?</p>
         <br>
         <div class = "qChoices">
-          <div class = "qIChoices"> <input type="radio" id="ques2a" name="q2" value="pd"> Parent's Divorce<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques2b" name="q2" value="wnheaak"> Was not hugged enough as a kid<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques2c" name="q2" value="ai"> Attitude Issues<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques2a" name="q2" value="pd"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques2b" name="q2" value="wnheaak"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques2c" name="q2" value="ai"> Test Answer<br></div>
         </div>
       </div>
 
       <div id = "q3">
-        <p class="qTitle">Can you not?</p>
+        <p class="qTitle">Test Q3?</p>
         <br>
         <div class = "qChoices">
-          <div class = "qIChoices"> <input type="radio" id="ques3a" name="q3" value="no"> No<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques3b" name="q3" value="yes"> Yes<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques3c" name="q3" value="mike"> Sure<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques3a" name="q3" value="no"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques3b" name="q3" value="yes"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques3c" name="q3" value="mike"> Test Answer<br></div>
         </div>
       </div>
 
       <div id = "q4">
-        <p class="qTitle">Which class is better?</p>
+        <p class="qTitle">Test Q4?</p>
         <br>
         <div class = "qChoices">
-          <div class = "qIChoices"> <input type="radio" id="ques4a" name="q4" value="i340"> ITEC 340<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques4b" name="q4" value="i370"> ITEC 370<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques4c" name="q4" value="i324"> ITEC 324<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques4a" name="q4" value="i340"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques4b" name="q4" value="i370"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques4c" name="q4" value="i324"> Test Answer<br></div>
         </div>
       </div>
 
       <div id = "q5">
-        <p class="qTitle">Which concentration is better?</p>
+        <p class="qTitle">Test Q5?</p>
         <br>
         <div class = "qChoices">
-          <div class = "qIChoices"> <input type="radio" id="ques5a" name="q5" value="csse"> Software Engineering<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques5b" name="q5" value="cscs"> Computer Science (gross)<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques5c" name="q5" value="csdb"> Database<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques5a" name="q5" value="csse"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques5b" name="q5" value="cscs"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques5c" name="q5" value="csdb"> Test Answer<br></div>
         </div>
       </div>
 
       <div id = "q6">
-        <p class="qTitle">What is the best language?</p>
+        <p class="qTitle">Test Q6?</p>
         <br>
         <div class = "qChoices">
-          <div class = "qIChoices"> <input type="radio" id="ques6a" name="q6" value="java"> Java<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques6b" name="q6" value="sql"> SQL<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques6c" name="q6" value="ada"> ADA<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques6a" name="q6" value="java"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques6b" name="q6" value="sql"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques6c" name="q6" value="ada"> Test Answer<br></div>
         </div>
       </div>
 
       <div id = "q7">
-        <p class="qTitle">What is another name for Prof. Okie?</p>
+        <p class="qTitle">Test Q7?</p>
         <br>
         <div class = "qChoices">
-          <div class = "qIChoices"> <input type="radio" id="ques7a" name="q7" value="ned"> Nedward<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques7b" name="q7" value="ok"> Okie Dokie<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques7c" name="q7" value="ng"> Nice Guy<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques7a" name="q7" value="ned"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques7b" name="q7" value="ok"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques7c" name="q7" value="ng"> Test Answer<br></div>
         </div>
       </div>
 
       <div id = "q8">
-        <p class="qTitle">Is winston really a guy?</p>
+        <p class="qTitle">Test Q8?</p>
         <br>
         <div class = "qChoices">
-          <div class = "qIChoices"> <input type="radio" id="ques8a" name="q8" value="y"> Yes<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques8b" name="q8" value="n"> No<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques8c" name="q8" value="m"> Maybe<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques8a" name="q8" value="y"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques8b" name="q8" value="n"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques8c" name="q8" value="m"> Test Answer<br></div>
         </div>
       </div>
 
       <div id = "q9">
-        <p class="qTitle">Can jon see?</p>
+        <p class="qTitle">Test Q9?</p>
         <br>
         <div class = "qChoices">
-          <div class = "qIChoices"> <input type="radio" id="ques9a" name="q9" value="no"> No<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques9b" name="q9" value="nah"> No<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques9c" name="q9" value="mike"> No<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques9a" name="q9" value="no"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques9b" name="q9" value="nah"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques9c" name="q9" value="mike"> Test Answer<br></div>
         </div>
       </div>
 
       <div id = "q10">
-        <p class="qTitle">What is 5 * 2 + 4?</p>
+        <p class="qTitle">Test Q10?</p>
         <br>
         <div class = "qChoices">
-          <div class = "qIChoices"> <input type="radio" id="ques10a" name="q10" value="kyle"> 14<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques10b" name="q10" value="santa"> 30<br></div>
-          <div class = "qIChoices"> <input type="radio" id="ques10c" name="q10" value="mike"> 22<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques10a" name="q10" value="kyle"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques10b" name="q10" value="santa"> Test Answer<br></div>
+          <div class = "qIChoices"> <input type="radio" id="ques10c" name="q10" value="mike"> Test Answer<br></div>
         </div>
       </div>
 
     </div>
-	</div>
+  </div>
+</div>
 
-	</div>
   </body>
   <div id="end">
     KV, JC, WS, MS, JA
