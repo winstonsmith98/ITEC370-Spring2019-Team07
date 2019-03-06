@@ -11,23 +11,48 @@ function adv() {
 
 
   for (var i = 0; i < qNums.length; i++) {
-
+    //var rand = parseInt(Math.random(1)*10); RANDOM ORDER - ADD IF TO ELEM ANSWERED QUESTIONS
+    //qNums[i] = rand;
     qNums[i] +=1;
 
     switch (qNums[i]) {
 
-      case 1:
+        case 1:
         document.getElementById("q1").style.display = "block";
+        document.getElementById("q2").style.display = "none";
+        document.getElementById("q3").style.display = "none";
+        document.getElementById("q4").style.display = "none";
+        document.getElementById("q5").style.display = "none";
+        document.getElementById("q6").style.display = "none";
+        document.getElementById("q7").style.display = "none";
+        document.getElementById("q8").style.display = "none";
+        document.getElementById("q9").style.display = "none";
+        document.getElementById("q10").style.display = "none";
 
         break;
       case 2:
         document.getElementById("q1").style.display = "none";
         document.getElementById("q2").style.display = "block";
+        document.getElementById("q3").style.display = "none";
+        document.getElementById("q4").style.display = "none";
+        document.getElementById("q5").style.display = "none";
+        document.getElementById("q6").style.display = "none";
+        document.getElementById("q7").style.display = "none";
+        document.getElementById("q8").style.display = "none";
+        document.getElementById("q9").style.display = "none";
+        document.getElementById("q10").style.display = "none";
         break;
       case 3:
         document.getElementById("q1").style.display = "none";
         document.getElementById("q2").style.display = "none";
         document.getElementById("q3").style.display = "block";
+        document.getElementById("q4").style.display = "none";
+        document.getElementById("q5").style.display = "none";
+        document.getElementById("q6").style.display = "none";
+        document.getElementById("q7").style.display = "none";
+        document.getElementById("q8").style.display = "none";
+        document.getElementById("q9").style.display = "none";
+        document.getElementById("q10").style.display = "none";
 
         break;
       case 4:
@@ -35,6 +60,12 @@ function adv() {
         document.getElementById("q2").style.display = "none";
         document.getElementById("q3").style.display = "none";
         document.getElementById("q4").style.display = "block";
+        document.getElementById("q5").style.display = "none";
+        document.getElementById("q6").style.display = "none";
+        document.getElementById("q7").style.display = "none";
+        document.getElementById("q8").style.display = "none";
+        document.getElementById("q9").style.display = "none";
+        document.getElementById("q10").style.display = "none";
         break;
       case 5:
         document.getElementById("q1").style.display = "none";
@@ -42,6 +73,11 @@ function adv() {
         document.getElementById("q3").style.display = "none";
         document.getElementById("q4").style.display = "none";
         document.getElementById("q5").style.display = "block";
+        document.getElementById("q6").style.display = "none";
+        document.getElementById("q7").style.display = "none";
+        document.getElementById("q8").style.display = "none";
+        document.getElementById("q9").style.display = "none";
+        document.getElementById("q10").style.display = "none";
         break;
       case 6:
         document.getElementById("q1").style.display = "none";
@@ -50,6 +86,10 @@ function adv() {
         document.getElementById("q4").style.display = "none";
         document.getElementById("q5").style.display = "none";
         document.getElementById("q6").style.display = "block";
+        document.getElementById("q7").style.display = "none";
+        document.getElementById("q8").style.display = "none";
+        document.getElementById("q9").style.display = "none";
+        document.getElementById("q10").style.display = "none";
         break;
       case 7:
         document.getElementById("q1").style.display = "none";
@@ -59,6 +99,9 @@ function adv() {
         document.getElementById("q5").style.display = "none";
         document.getElementById("q6").style.display = "none";
         document.getElementById("q7").style.display = "block";
+        document.getElementById("q8").style.display = "none";
+        document.getElementById("q9").style.display = "none";
+        document.getElementById("q10").style.display = "none";
         break;
       case 8:
         document.getElementById("q1").style.display = "none";
@@ -69,6 +112,8 @@ function adv() {
         document.getElementById("q6").style.display = "none";
         document.getElementById("q7").style.display = "none";
         document.getElementById("q8").style.display = "block";
+        document.getElementById("q9").style.display = "none";
+        document.getElementById("q10").style.display = "none";
         break;
       case 9:
         document.getElementById("q1").style.display = "none";
@@ -80,6 +125,7 @@ function adv() {
         document.getElementById("q7").style.display = "none";
         document.getElementById("q8").style.display = "none";
         document.getElementById("q9").style.display = "block";
+        document.getElementById("q10").style.display = "none";
         break;
       case 10:
         document.getElementById("q1").style.display = "none";

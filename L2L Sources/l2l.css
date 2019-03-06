@@ -8,19 +8,8 @@ body {
   font-family:"Calibri";
 }
 
-.question {
-  height: 750px;
-  width: 750px;
-  border: 2px solid black;
-  background-color: white;
-  margin: auto;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-}
-
 .btn {
- background-color: #4CAF50; /* Green */
+ background-color: #4CAF50;
  border: none;
  color: white;
  padding: 15px 32px;
@@ -41,54 +30,6 @@ body {
   padding-top: 150px;
 }
 
-#qNum {
-    font-family:"Calibri";
-    font-size: 20px;
-}
-
-#nextQ {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10 {
-  padding-top: 0px;
-  height: 600px;
-  width: 600px;
-  display: none;
-}
-
-.qChoices {
-   background-color: #ffd3ad;
-   -moz-border-radius: 50px;
-   -webkit-border-radius: 50px;
-   border-radius: 50px;
-     width: 600px;
-}
-
-.qIChoices {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-
-}
-
-.qIChoices:hover {
-  border-style: solid;
-  border-color:black;
-  box-shadow: 3px 4px #000;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  background-color: #f4bf42;
-}
-
-.qTitle {
-  padding-bottom: 150px;
-  font-size: 30px;
-}
 .text-wrapper{
 	width: 100%;
 	position: relative;
@@ -106,6 +47,7 @@ body {
 	width: 1075px;
 	margin: 0 auto;
 	padding: 30px;
+
 }
 header{
 	background-color: #145C07;
@@ -129,7 +71,7 @@ span{
 }
 
 .btn:hover {
-    color: blue;
+    background-color: #5CBF60;
 }
 
 #sectionOne{
